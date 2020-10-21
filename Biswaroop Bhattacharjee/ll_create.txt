@@ -17,7 +17,7 @@ int main()
      head = (struct node *)malloc(sizeof(struct node));
      if(head == NULL)
      {
-        printf("Unable to allocate memory.");
+        printf ("Unable to allocate memory.");
         exit(0);
      }
      printf("Enter data for head node");
