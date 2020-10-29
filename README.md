@@ -1,5 +1,4 @@
-![](images/hacktoberfest-header.png)
-
+# Hacktoberfest 2020 - KIIT
 
 Hello KIITians 👋
 
@@ -53,12 +52,6 @@ You can read more about Hacktoberfest on [hacktoberfest.digitalocean.com](https:
 
 Read the [Contributing.md](CONTRIBUTING.md) for more details on how to get started and make the pull request. 
 
-Feel free to join our whatsapp group [here](https://chat.whatsapp.com/HCKDOz36XFbGA8PqnzYYKB), we are always available to help you.
-
 Star this repository if you had fun. Happy Hacktoberfest. ✌️🥳
 
 <br>
-
-<p align="center">
-    <img src="https://rawcdn.githack.com/junaidrahim/Hacktoberfest-KIIT/ae29016f23b3cb4ffd209dd8f309f269448f35f2/images/hacktoberfest.png">
-</p>
