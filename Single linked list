@@ -3,12 +3,12 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
-struct Link
+struct node
 {
 	int info;
-	struct Link *next;
+	struct node *next;
 };
-struct Link *head,*ptr,*node;
+struct node *head,*ptr,*node;
 
 //create
 void create()           
@@ -17,7 +17,7 @@ void create()
 	char ch;
 	do
 	{
-	node=(struct Link*)malloc(sizeof(struct Link));
+	node=(struct node*)malloc(sizeof(struct node));
 	if(node==NULL)
 	{
 		printf("no memory\n");
@@ -69,7 +69,7 @@ void count_node()
 //insert begin
 void insert_beg()
 {
-	node=(struct Link*)malloc(sizeof(struct Link));
+	node=(struct node*)malloc(sizeof(struct node));
 	if(node==NULL)
 	{
 		printf("no memory\n");
@@ -85,7 +85,7 @@ void insert_beg()
 //insert end
 void insert_end()
 {
-	node=(struct Link*)malloc(sizeof(struct Link));
+	node=(struct node*)malloc(sizeof(struct node));
 	if(node==NULL)
 	{
 		printf("no memory\n");
@@ -118,7 +118,7 @@ void delete_beg()
 //delete end
 void delete_end()
 {
-	struct Link *temp;
+	struct node *temp;
 	ptr=head;
 	if(ptr==NULL)
 	{
@@ -206,7 +206,7 @@ void insert_position()
 	int i=1,pos;
 	printf("\nenter a position to  insert- \n");
 	scanf("%d",&pos);
-	node=(struct Link*)malloc(sizeof(struct Link));
+	node=(struct node*)malloc(sizeof(struct node));
 	if(node==NULL)
 	{
 		printf("no memory\n");
@@ -239,7 +239,7 @@ void insert_position()
 void delete_after_node()
 {
 	int ser;
-	struct Link *temp;
+	struct node *temp;
 	printf("\nenter an element for search- \n");
 	scanf("%d",&ser);
 	ptr=head;
@@ -260,7 +260,7 @@ void delete_after_node()
 //delete position
 void delete_position()
 {
-	struct Link *temp;
+	struct node *temp;
 	int i=1,pos;
 	printf("\nenter a position to  delete- \n");
 	scanf("%d",&pos);
